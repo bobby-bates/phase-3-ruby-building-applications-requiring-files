@@ -1,5 +1,7 @@
 # Something is missing here
 
+require_relative './plant' # Can chain files separated by commas
+
 class Garden
   attr_accessor :name
 
